@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Модальне вікно</title>
+  </head>
+  <body>
+    <div class="card" onclick="openModal()">
+      <h2>Картка</h2>
+      <!-- Додайте інші елементи картки, які вам потрібні -->
+    </div>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Заголовок модального вікна</h2>
+        <!-- Вміст модального вікна -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
