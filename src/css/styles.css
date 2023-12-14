@@ -13,3 +13,10 @@
 @import url('./layout/hero.css');
 @import url('./layout/footer.css');
 @import url('./layout/favorites.css');
+@import url('./layout/menu.css');
+@import url('./layout/home.css');
+@import url('./layout/card.css');
+
+/* components */
+@import url('./components/pagination.css');
+@import url('./components/totopbutton.css');
